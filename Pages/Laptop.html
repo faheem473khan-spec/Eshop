@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" href="./index.html">Eshop</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./Laptop.html">Laptop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./mobile.html">Mobile</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active " href="./Accessories.html">Accessories</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- Carousal -->
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../image/student-doing-coding-his-computer-setup_939033-14317.avif" class="d-block w-100"
+                        alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../image/OIP.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../image/252-2521578_printable-picture-of-laptop-screen.jpg" class="d-block w-100"
+                        alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- Top selling -->
+        <h1><b><i>Top Selling Laptops</i></b></h1>
+        <div class="row">
+
+
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="../image/BCO.655cd0e2-d247-44a0-a3ea-27d95dbf2135.png" class="card-img-top"
+                        alt="Apple MacBook Neo">
+                    <div class="card-body">
+                        <h5 class="card-title">Apple MacBook Neo</h5>
+                        <p class="card-text">A18 Pro processor, Liquid Retina display, 15-hour battery life, slim
+                            aluminum design.</p>
+                        <a href="./mackbook.html" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="../image/BCO.2e6b3c7a-ae01-4e21-9e58-870de3a0285d.png" class="card-img-top"
+                        alt="ASUS TUF Gaming F16">
+                    <div class="card-body">
+                        <h5 class="card-title">ASUS TUF Gaming F16 (2024/2026 refresh)</h5>
+                        <p class="card-text">16” FHD+ 144Hz display, Intel Core i5, RTX 4050 GPU, DDR5 RAM, 512GB SSD.
+                        </p>
+                        <a href="./asus.html" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="../image/BCO.ee330bb7-69ea-429b-8522-c64124fa9407.png" class="card-img-top"
+                        alt="Microsoft Surface Laptop 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Microsoft Surface Laptop 4</h5>
+                        <p class="card-text">13.5” touchscreen, Intel Core i7, up to 32GB RAM, 1TB SSD, Windows 11 Pro.
+                        </p>
+                        <a href="./surface.html" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Navigation -->
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </nav>
+        <!-- Accordtion -->
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        What are your shipping options?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        We offer several shipping options to suit your need, including standard, expedited, and
+                        overnight shipping. You can select your preffered option at cheakout.tt
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Returns and exchange.
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        We offer a 30-day return policy. if you're not satisfied with your purchase, you can return it
+                        whitin 30 day for a full refund or exchange. Items must be in their original condition.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Payment and Billing.
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        We accept a variety of payments methods including credit/debit cards (visa,MasterCard, American
+                        express), Paypal and Apple Pay.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+    </div>
+</body>
+
+</html>
